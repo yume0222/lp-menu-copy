@@ -1,7 +1,7 @@
 // ハンバーガーメニュー
-const nav = document.querySelector('.main-nav');
-const links = document.querySelectorAll('.main-nav__link');
-const btn = document.querySelector('.hamburger');
+const nav = document.querySelector('.header__nav');
+const links = document.querySelectorAll('.header__menu-link');
+const btn = document.querySelector('.header__hamburger');
 const hamburger = () => {
   btn.classList.toggle('open');
   if (btn.classList.contains('open')) {
@@ -16,8 +16,8 @@ links.forEach((link) => {
 });
 
 // Reason
-const slideLeft = document.querySelector('.reason__slide--left');
-const slideRight = document.querySelector('.reason__slide--right');
+const slideLeft = document.querySelector('.reason__item--left');
+const slideRight = document.querySelector('.reason__item--right');
 const options = {
   duration: 500,
   easing: 'ease-out',
