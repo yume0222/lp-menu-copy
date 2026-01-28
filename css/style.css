@@ -360,12 +360,13 @@ li {
   margin-top: 32px;
 }
 .summary__item-title {
+  font-weight: bold;
   text-align: center;
+  line-height: 1;
 }
 .summary__item-ja,
 .summary__item-en {
   display: block;
-  font-weight: bold;
 }
 .summary__item-ja {
   font-size: 1.5rem;
